@@ -5,7 +5,7 @@ use prettytable::{Table, row};
 /// 
 /// Calculates voltage drop across different wire gauges based on voltage, current, and distance
 #[derive(Parser, Debug)]
-#[command(name = "Wire Util")]
+#[command(name = "wgrs")]
 #[command(about = "Calculate voltage drop for common wire gauges", long_about = None)]
 struct Args {
     /// Voltage in volts
